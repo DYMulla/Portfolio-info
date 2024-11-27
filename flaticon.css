@@ -1,98 +1,117 @@
+@charset "UTF-8";
 @font-face {
-    font-family: "flaticon";
-    src: url("../fonts/flaticon.ttf?7be827e199392bb56ae95dacf43f5036") format("truetype"),
-url("../fonts/flaticon.woff?7be827e199392bb56ae95dacf43f5036") format("woff"),
-url("../fonts/flaticon.woff2?7be827e199392bb56ae95dacf43f5036") format("woff2"),
-url("../fonts/flaticon.eot?7be827e199392bb56ae95dacf43f5036#iefix") format("embedded-opentype"),
-url("../fonts/flaticon.svg?7be827e199392bb56ae95dacf43f5036#flaticon") format("svg");
+  font-family: "flaticon";
+  src: url("./flaticon.ttf?7be827e199392bb56ae95dacf43f5036") format("truetype"), url("./flaticon.woff?7be827e199392bb56ae95dacf43f5036") format("woff"), url("./flaticon.woff2?7be827e199392bb56ae95dacf43f5036") format("woff2"), url("./flaticon.eot?7be827e199392bb56ae95dacf43f5036#iefix") format("embedded-opentype"), url("./flaticon.svg?7be827e199392bb56ae95dacf43f5036#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-    font-family: flaticon !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    font-size: 20px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-verified:before {
-    content: "\f101";
+.flaticon-loupe:before {
+  content: "";
 }
-.flaticon-coding:before {
-    content: "\f102";
+
+.flaticon-shopping-cart:before {
+  content: "";
 }
-.flaticon-smartphone:before {
-    content: "\f103";
+
+.flaticon-shopping-cart-1:before {
+  content: "";
 }
-.flaticon-software-developer:before {
-    content: "\f104";
+
+.flaticon-shopping-bag:before {
+  content: "";
 }
-.flaticon-vector:before {
-    content: "\f105";
+
+.flaticon-shopping-cart-2:before {
+  content: "";
 }
-.flaticon-palette:before {
-    content: "\f106";
+
+.flaticon-placeholder:before {
+  content: "";
 }
-.flaticon-add:before {
-    content: "\f107";
+
+.flaticon-email:before {
+  content: "";
 }
-.flaticon-social-media:before {
-    content: "\f108";
+
+.flaticon-play-button:before {
+  content: "";
 }
-.flaticon-promotion:before {
-    content: "\f109";
+
+.flaticon-user:before {
+  content: "";
 }
-.flaticon-email-marketing:before {
-    content: "\f10a";
+
+.flaticon-quotation:before {
+  content: "";
 }
-.flaticon-self-growth:before {
-    content: "\f10b";
+
+.flaticon-quotation-1:before {
+  content: "";
 }
-.flaticon-right-arrow:before {
-    content: "\f10c";
+
+.flaticon-house:before {
+  content: "";
 }
-.flaticon-left-arrow:before {
-    content: "\f10d";
-}
-.flaticon-facebook:before {
-    content: "\f10e";
-}
-.flaticon-dribbble:before {
-    content: "\f10f";
-}
-.flaticon-twitter:before {
-    content: "\f110";
-}
-.flaticon-heart:before {
-    content: "\f111";
-}
-.flaticon-telephone:before {
-    content: "\f112";
-}
+
 .flaticon-phone-call:before {
-    content: "\f113";
+  content: "";
 }
-.flaticon-envelope:before {
-    content: "\f114";
+
+.flaticon-badge:before {
+  content: "";
 }
-.flaticon-mail:before {
-    content: "\f115";
+
+.flaticon-vegan:before {
+  content: "";
 }
-.flaticon-location:before {
-    content: "\f116";
+
+.flaticon-diary:before {
+  content: "";
 }
-.flaticon-quote:before {
-    content: "\f117";
+
+.flaticon-support:before {
+  content: "";
 }
-.flaticon-right-quote-sign:before {
-    content: "\f118";
+
+.flaticon-family:before {
+  content: "";
 }
-.flaticon-left-quote:before {
-    content: "\f119";
+
+.flaticon-broken-arm:before {
+  content: "";
 }
-.flaticon-bar-chart:before {
-    content: "\f11a";
+
+.flaticon-wounded:before {
+  content: "";
 }
+
+.flaticon-handcuffs:before {
+  content: "";
+}
+
+.flaticon-graduation-cap:before {
+  content: "";
+}
+
+.flaticon-book:before {
+  content: "";
+}
+
+.flaticon-auction:before {
+  content: "";
+}
+
+.flaticon-balance:before {
+  content: "";
+}
+/*# sourceMappingURL=flaticon.css.map */
